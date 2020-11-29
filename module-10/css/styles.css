@@ -49,6 +49,14 @@ body {
   }
 }
 
+/* @media (min-width: 940px) {
+.container {
+    min-width: 920px;
+    width: -webkit-fill-available;
+    margin: 0 auto;
+  } 
+} */
+
 .head-wrapper::after {
   position: absolute;
   content: "";
@@ -599,6 +607,7 @@ body {
   .container {
     width: 920px;
     margin: 0 auto;
+    width: -webkit-fill-available;
   }
   
   .header-section {
